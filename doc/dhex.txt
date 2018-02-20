@@ -1,0 +1,7 @@
+put help here
+
+but i think you will find everything on the github repo:
+https://github.com/x4m3/vim-dhex
+
+------------
+made by x4m3
