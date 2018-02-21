@@ -1,4 +1,4 @@
 # todo
 
 - [ ] basic functionality
-- [ ] filetype detection
+- [ ] ~~filetype detection~~
