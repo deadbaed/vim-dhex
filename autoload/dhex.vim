@@ -12,6 +12,6 @@ endfunction
 
 
 "define all functions that will be called by the user
-function dhex#convert_txt_hex()
+function dhex#go()
 	call s:convert_txt_hex()
 endfunction
