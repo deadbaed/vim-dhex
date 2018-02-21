@@ -5,9 +5,14 @@
 "set default state of a file
 let state = "txt"
 
-"define functions
+"convert from text to hexadecimal
 function! s:convert_txt_hex()
-	echo "the current file is a text file."
+	echo "converting from txt to hex."
+endfunction
+
+"convert from hexadecimal to text
+function! s:convert_hex_txt()
+	echo "converting from hex to txt."
 endfunction
 
 
