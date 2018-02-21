@@ -17,13 +17,13 @@ let state = "txt"
 "2.1: txt to hex
 function! s:convert_txt_hex()
 	echo "converting from txt to hex."
-	%!xxd
+	silent %!xxd
 endfunction
 
 "2.2: hex to txt
 function! s:convert_hex_txt()
 	echo "converting from hex to txt."
-	%!xxd -r
+	silent %!xxd -r
 endfunction
 
 "2.3: check state
