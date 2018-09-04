@@ -25,4 +25,4 @@ by you.
 
 licensed under the **mit license** (see [license.txt](license.txt))
 
-development is done on [x4m3.rocks!](https://git.x4m3.rocks/vim-dhex), not on github.
+development is done on **[x4m3.rocks!](https://git.x4m3.rocks/vim-dhex)**, not on github.
