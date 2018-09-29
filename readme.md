@@ -23,6 +23,6 @@ after the command to run, so that you won't need to hit enter by yourself.
 written by [x4m3](https://philippeloctaux.com), and hopefully made better
 by you.
 
-licensed under the **mit license** (see [license.txt](license.txt))
+licensed under the **mit license** (see [license.txt](license.txt)).
 
-development is done on **[x4m3.rocks!](https://git.x4m3.rocks/vim-dhex)**, not on github.
+development is done on **[x4m3.rocks!](https://git.x4m3.rocks/vim-dhex)**.
