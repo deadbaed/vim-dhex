@@ -1,27 +1,19 @@
-" File  : dhex.vim
-" Author: Philippe Loctaux <loctauxphilippe@gmail.com>
+" autoload/dhex.vim
 "
+" made by x4m3
 
-"table of contents
-"2.0: functions
-"2.1: txt to hex
-"2.2: hex to txt
-"3.0: functions called by the user
-
-"2.0: functions
-"2.1: txt to hex
 function! s:convert_txt_hex()
-	echo "converted from txt to hex."
 	silent %!xxd
+	set binary
+	echo "converted from txt to hex."
 endfunction
 
-"2.2: hex to txt
 function! s:convert_hex_txt()
-	echo "converted from hex to txt."
 	silent %!xxd -r
+	echo "converted from hex to txt."
 endfunction
 
-"3.0: functions called by the user
+" functions called by the user
 function dhex#goH()
 	call s:convert_txt_hex()
 endfunction

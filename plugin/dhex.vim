@@ -1,6 +1,4 @@
-" File  : dhex.vim
-" Author: Philippe Loctaux <loctauxphilippe@gmail.com>
-"
+" plugin/dhex.vim
 
 "directly convert to hex
 command! DirtyHexH call dhex#goH()
