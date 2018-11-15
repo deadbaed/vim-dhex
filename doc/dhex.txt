@@ -1,7 +1,55 @@
-put help here
+*dhex.txt* dirty hexadecimal plugin for vim
+*Dhex*
 
-but i think you will find everything on the github repo:
-https://github.com/x4m3/vim-dhex
+==============================================================================
+CONTENTS                                                     *DhexContents*
 
-------------
-made by x4m3
+  1. Usage .............. |DhexUsage|
+  2. License ............ |DhexLicense|
+  3. Bugs ............... |DhexBugs|
+  4. Contributing ....... |DhexContributing|
+  5. Changelog .......... |DhexChangelog|
+  6. Author ............. |DhexAuthor|
+
+==============================================================================
+1. Usage                                                        *DhexUsage*
+
+Run `:DirtyHexH` to convert the file in binary mode to work with vim, and
+Run `:DirtyHexT` to reconvert the file in text mode.
+==============================================================================
+2. License                                                    *DhexLicense*
+
+MIT license.
+
+==============================================================================
+3. Bugs                                                          *DhexBugs*
+
+If you find any bugs, send me an email (see |DhexAuthor|) and check
+the bug reports on https://git.x4m3.rocks/x4m3/vim-dhex/issues.
+
+==============================================================================
+4. Contributing                                          *DhexContributing*
+
+Head over to https://git.x4m3.rocks/x4m3/vim-hex, clone the git repo,
+do your work, and send patches via email (see |DhexAuthor|).
+
+==============================================================================
+5. Changelog                                                *DhexChangelog*
+
+1.1.0 - 2018-10-12
+- Respecting the new Dhex norm (4 spaces instead of 8 col tabs)
+- Showed EOL characters
+- Added support for Makefile
+
+1.0.1 - 2018-09-06
+- Fixed a bug where the plugin wouldn't run on linux.
+
+1.0.0 - 2018-09-05
+- Initial release.
+
+==============================================================================
+6. Author                                                      *DhexAuthor*
+
+Author:  Philippe Loctaux
+Email:   p@philippeloctaux.com
+Website: http://philippeloctaux.com
