@@ -25,4 +25,6 @@ by you.
 
 licensed under the **mit license** (see [license.txt](license.txt)).
 
+check also the [changelog](changelog.md).
+
 development is done on **[x4m3.rocks!](https://git.x4m3.rocks/x4m3/vim-dhex)**

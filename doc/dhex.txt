@@ -36,16 +36,11 @@ do your work, and send patches via email (see |DhexAuthor|).
 ==============================================================================
 5. Changelog                                                *DhexChangelog*
 
-1.1.0 - 2018-10-12
-- Respecting the new Dhex norm (4 spaces instead of 8 col tabs)
-- Showed EOL characters
-- Added support for Makefile
+0.2 - 2018-11-16
+- Opening files in binary mode
 
-1.0.1 - 2018-09-06
-- Fixed a bug where the plugin wouldn't run on linux.
-
-1.0.0 - 2018-09-05
-- Initial release.
+0.1 - 2018-02-21
+- Initial release
 
 ==============================================================================
 6. Author                                                      *DhexAuthor*
