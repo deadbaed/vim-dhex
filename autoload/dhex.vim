@@ -3,13 +3,13 @@
 " made by x4m3
 
 function! s:convert_txt_hex()
-	silent %!xxd
+	silent %!xxd -g 1 -c 8
 	set binary
 	echo "converted from txt to hex."
 endfunction
 
 function! s:convert_hex_txt()
-	silent %!xxd -r
+	silent %!xxd -r -g 1 -c 8
 	echo "converted from hex to txt."
 endfunction
 
